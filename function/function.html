@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Javascript Dasar</h1>
+    <input type="number" class="number1">
+    <input type="number" class="number2">
+    <input type="text" class="hasil">
+    <button>click</button>
+    <script>
+        
+       
+        function calculator(){
+           
+        }
+
+        // function convertCelsiusToFahrenheit(temprature){
+        //     const tempratureInFahrenheit = 9/5* temprature + 32;
+
+        //     console.log(`hasinya adalah: ${tempratureInFahrenheit}`)
+        // }
+        // let tempratureInCelsius= 80;
+
+        // console.log(convertCelsiusToFahrenheit);
+
+        // convertCelsiusToFahrenheit(tempratureInCelsius);
+
+        // function myFunction(a,b){
+        //     console.log(a * b)
+        // }
+
+        // myFunction(8,2)
+
+        function multiply(a,b){
+            return a*b;
+        }
+
+        function calculate(operation, numA, numB){
+            return operation(numA,numB);
+        }
+
+        const result = calculate(multiply, 2,4);
+        console.log(result)
+
+    </script>
+</body>
+</html>
